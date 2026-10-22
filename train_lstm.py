@@ -27,10 +27,10 @@ SEED = 42
 np.random.seed(SEED)
 tf.random.set_seed(SEED)
 
-DATA_FILE = "Datasets/synthetic_lstm_windows.npz"
-MODEL_FILE = "NewModels/lstm_heading.keras"
-SCALER_FILE = "NewModels/lstm_heading_scaler.pkl"
-RESULTS_FILE = "NewModels/lstm_heading_results.json"
+DATA_FILE = "synthetic_lstm_windows.npz"
+MODEL_FILE = "lstm_heading.keras"
+SCALER_FILE = "lstm_heading_scaler.pkl"
+RESULTS_FILE = "lstm_heading_results.json"
 
 EPOCHS = 40
 BATCH_SIZE = 128
